@@ -154,14 +154,16 @@
 	</div>
 	<div id="bg6">
 		<div class="row">
+		<form>
 			<div class="col-md-5 col-sm-5">
-					<input class="email_in" type="email" placeholder="Введите ваш e-mail">
-					<input class="name_in" type="textarea" placeholder="Введите ваше имя">
+					<input name="email_in" id="email_in" type="email" placeholder="Введите ваш e-mail">
+					<input name="name_in" id="name_in" type="textarea" placeholder="Введите ваше имя">
 			</div>
-					<textarea id="review_in" placeholder="Введите ваше сообщение"></textarea>
-					<input id="content_submit" type="submit">
+			<div class="col-md-7 col-sm-7">
+					<textarea name="review_in" id="review_in" placeholder="Введите ваше сообщение"></textarea>
+					<input name="content_submit" id="content_submit" type="submit">
 			</div>
-
+			</form>
 		</div>
 	</div>
 	<footer>

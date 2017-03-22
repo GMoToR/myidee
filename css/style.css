@@ -261,7 +261,7 @@ img.part {
 	text-align: left;
 	padding-top: 90px;
 }
-.email_in{
+#email_in{
 	display: inline-block;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -269,7 +269,7 @@ img.part {
 	height: 60px;
 }
 
-.name_in{
+#name_in{
 	display: inline-block;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -277,7 +277,7 @@ img.part {
 	height: 60px;
 }
 
-.review_in{
+#review_in{
 	display: inline-block;
 	padding-left: 8px;
 	padding-right: 8px;

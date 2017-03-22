@@ -25,27 +25,15 @@ class Main extends CI_Controller {
 	{
 	$this->load->view('idee');
 	}
-    public function insertPost($content) {
-        // вставляем в таблицу массив с данными, в качестве имени для каждого элемента массива указываем имя столбца куда нужно записать значение
-        $this->db->insert('myidee_table', array('email' => $email, 'name'  => $name, 'review' => $review));
-        // возвращаем id последнего вставленного элемента
-        return $this->db->insert_id();
-    }
-	public function add_post() {
-	// подключаем модель
-	$this->load->model('myidee_data');
-	// записываем содержмое переданное методом post в переменную
+	public function add_post()
+	{
+	$this->load->model('model_myidee');
+
 	$post = $this->input->post();
-	$id = $this->myidee_data->insertPost($post['email']);
-	// выводим результат в виде json строки
-	$this->output->set_output(
-		json_encode(
-			array(
-				'status' => '1',
-				'id' => $id
-			)
-		)
-	);	
+
+	$this->model_myidee->insertPost($post);
+
+	echo('ok');
 	}
 	
 
