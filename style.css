@@ -1,0 +1,272 @@
+﻿@font-face {font-family:"ProximaNova Regular";src:url("fonts/ProximaNova-Regular.eot?") format("eot"),url("fonts/ProximaNova-Regular.woff") format("woff"),url("fonts/ProximaNova-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face {font-family:"ProximaNova Light";src:url("fonts/ProximaNova-Light.eot?") format("eot"),url("fonts/ProximaNova-Light.woff") format("woff"),url("fonts/ProximaNova-Light.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face {font-family:"ProximaNova Black";src:url("fonts/ProximaNova-Black.eot?") format("eot"),url("fonts/ProximaNova-Black.woff") format("woff"),url("fonts/ProximaNova-Black.ttf") format("truetype");font-weight:normal;font-style:normal;}
+@font-face {font-family:"ProximaNova Bold";src:url("fonts/ProximaNova-Bold.eot?") format("eot"),url("fonts/ProximaNova-Bold.woff") format("woff"),url("fonts/ProximaNova-Bold.ttf") format("truetype");font-weight:normal;font-style:normal;}
+
+body {
+	font-family: 'ProximaNova Bold';
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f5f5f5;
+}
+a:hover, a:focus, a:visited {
+	color: inherit;
+}
+#bg1 {
+	width: 100%;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-image: url(img/fon.png); /* Путь к фоновому изображению */
+	background-color: #c7b39b; /* Цвет фона */
+	background-size: cover;
+}
+.row {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.navigateidee {
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 30px;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: left;
+	display: block;
+}
+.navigate {
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 15px;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 3.333;
+	text-align: center;
+}
+
+span { 
+	color: rgb(230, 75, 60); /* Красный цвет */ 
+}
+h1  {
+  font-size: 40px;
+  font-family: "ProximaNova Bold";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.25;
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  /*width: 752.476px;
+  height: 38.863px;*/
+}
+h2  {
+  font-size: 14px;
+  font-family: "ProximaNova Regular";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2.143;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 270.948px;
+  top: 250.567px;
+  /*width: 610.875px;
+  height: 14.043px;*/
+}
+.buttom {
+  font-size: 17px;
+  font-family: "ProximaNovaCond";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.765;
+  text-align: left;
+  position: absolute;
+  left: 574.435px;
+  top: 400.427px;
+}
+
+
+
+
+#bg2 {
+	width: 100%;
+	height: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Light";
+	text-align: center;
+	background-color: #FFFFFF; /* Цвет фона */
+	background-size: cover;
+	color: rgb(87, 87, 87);
+
+}
+.line {
+	background-color: rgb(216, 216, 216);
+	height: 73px;
+	width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.circle {
+	background-color: rgb(102, 102, 102);
+	border-radius: 4px;
+	height: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	transition: background 0.25s ease 0s;
+	width: 7px;
+
+}
+.Aboutus {
+  font-size: 45px;
+  font-family: "ProximaNova Light";
+  color: rgb(87, 87, 87);
+  text-align: center;
+  position: relative;
+}
+.underline {
+	background-color: rgb(216, 216, 216);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	width: 100%;
+}
+.underlinebig {
+	background-color: rgb(87, 87, 87);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+	width: 28px;
+	margin-top: -2px;
+}
+.cap {
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+.text {
+  margin-top: 15px;
+  font-size: 14px;
+  max-width: 1000px;
+  font-family: "ProximaNova Light";
+  color: rgb(87, 87, 87);
+  text-align: center;
+  position: relative;
+  display: table;
+  margin-left: auto;
+	margin-right: auto;
+}
+.center {
+  position: relative;
+  max-width: 1100px;
+}
+.part {
+	margin-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+img.part {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 120px;
+	height: 120px;
+
+}
+.part-name {
+	font-family: "ProximaNova Bold";
+	color: rgb(230, 75, 60);
+	font-size: 17px;
+	margin-top: 20px
+}
+.part-text {
+	font-family: "ProximaNova Light";
+	color: rgb(87, 87, 87);
+	font-size: 13px;
+	margin-top: 5px
+}
+
+#bg3 {
+	width: 100%;
+	height: 697px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-image: url(img/fon3.png); /* Путь к фоновому изображению */
+	background-color: #FFFFFF; /* Цвет фона */
+}
+
+.part-name2 {
+	font-family: "ProximaNova Light";
+	color: rgb(87, 87, 87);
+	font-size: 15px;
+	margin-top: 20px
+}
+#bg4 {
+	width: 100%;
+	height: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	/*background-image: url(img/fon3.png);  Путь к фоновому изображению */
+	background-color: #FFFFFF; /* Цвет фона */
+	background-size: cover;
+}
+#bg5 {
+	width: 100%;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	/*background-image: url(img/fon3.png);  Путь к фоновому изображению */
+	background-color: #FFFFFF; /* Цвет фона */
+	background-size: cover;
+}
+#bg6 {
+	width: 100%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "ProximaNova Bold";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background-image: url(img/montana.png); /* Путь к фоновому изображению */
+	background-color: #FFFFFF; /* Цвет фона */
+	background-size: cover;
+}
+footer .row {
+	background-color: rgb(5, 5, 5); /* Цвет фона */
+}
+footer .navigateidee {
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 15px;
+	font-family: "ProximaNova Regular";
+	color: rgb(172, 172, 172);
+	text-transform: uppercase;
+	text-align: left;
+	display: block;
+
+}
