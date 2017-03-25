@@ -244,6 +244,31 @@ img.part {
 	background-color: #FFFFFF; /* Цвет фона */
 	background-size: cover;
 }
+.carousel-indicators{
+	bottom: -40px ! important;
+	color: rgb(0, 0, 0);
+	background-color: #FFFFFF;
+}
+.carousel-indicators .active 
+{
+  background: rgb(230, 75, 60);
+}
+.carusel_circle {
+	background-color: rgb(230, 230, 230);
+}
+.carousel-inner{
+	width: 50%;
+
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+
+}
+.carousel{
+    margin-top: 20px;
+}
 #bg6 {
 	width: 100%;
 	height: 400px;
